@@ -8,9 +8,9 @@ int main() {
 	struct corpo {
 		char nome[20];
 		float altura;
-		float peso; 	
+		float peso;
 	} p;
-	
+
 	//Instrução ao usuário
 	printf("\nDigite o nome: ");
 	scanf("%s", p.nome);
@@ -26,7 +26,7 @@ int main() {
 
 	imc = p.peso / (p.altura * p.altura);
 
-	//Imprime o resultado	
+	//Imprime o resultado
 	printf("\nO IMC de %s é %2.2f.\n\n", p.nome, imc);
 
 	return 0;
