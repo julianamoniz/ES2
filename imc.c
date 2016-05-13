@@ -61,21 +61,22 @@ void verifica(float imc){
 		}
 		else if ((imc > 25.0) && (imc <= 30.0)){
 			//PESO ACIMA
-			printf("  Pré-obesidade.\n  - Esta faixa já pode representar um risco considerável para a saúde.\n");
+			printf("  Peso acima do normal.\n  - Esta faixa já pode representar um risco considerável para a saúde.\n");
 		}
 		else{ //OBESIDADE
 
 			if ((imc > 30.0) && (imc < 35.0)){
 				//NIVEL 1
-				printf("  Obesidade classe I.\n  - Seu peso já está causando um risco para várias doenças,\n  como diabetes, hipertensão arterial, infarto e alguns tipos de câncer.\n");
+				printf("  Obesidade nível I.\n  - Seu peso já está causando um risco para várias doenças,\n  como diabetes, hipertensão arterial, infarto e alguns tipos de câncer.\n");
 			}
 			else if ((imc >= 35.0) && (imc < 40.0)){
 				//NIVEL 2
-				printf("  Obesidade classe II.\n  - Seu peso representa um risco muito aumentado para várias doenças.\n");
+				printf("  Obesidade nível II.\n  - Seu peso representa um risco muito aumentado para várias doenças.\n");
 			}
 			else{
 				//NIVEL 3
-				printf("  Obesidade classe III.\n   - Considerada em alguns casos como obesidade mórbida, este resultado indica\n   risco altíssimo para diversas complicações de saúde. Neste grau,\n   a obesidade já é considerada uma doença grave e necessita ser tratada\n   com orientação médica.\n");
+				printf("  Obesidade nível III.\n   - Considerada em alguns casos como obesidade mórbida, este resultado indica\n   risco altíssimo para diversas complicações de saúde. Neste grau,\n   a obesidade já é considerada uma doença grave e necessita ser tratada\n   com orientação médica.\n");
 			}
 		}
+
 }
